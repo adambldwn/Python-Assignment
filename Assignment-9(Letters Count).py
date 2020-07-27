@@ -1,0 +1,6 @@
+cumle=input('Cumle giriniz: ')
+rakam=lambda x:cumle.count(x)
+z=map(rakam, cumle)
+y=list(z)
+sozluk=dict(zip(cumle, y))
+print(sozluk)
